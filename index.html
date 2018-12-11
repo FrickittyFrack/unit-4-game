@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <title>Crystal Count Game</title>
+
+        <link rel="shortcut icon" href="assets/images/red-crystal.png">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <script src="assets/javascript/game.js"></script>
+    
+    </head>
+
+    <body>
+
+        <h1>Crystal Collector</h1>
+
+        <div id="main-body">
+
+            You will be given a random number at the beginning of each game.
+            <br><br>
+            Using the 4 crystals below, try to add up to the random number given.
+            <br><br>
+            Each crystal will add a different value to your score. This value will be changed for each new game.
+            <br><br>
+            If you add up to and match the random number exactly, you win!
+            <br><br>
+            If you go over, you lose...
+            <br><br>
+            Good Luck!
+
+        </div>
+
+        <div id="score-board">
+
+            Wins:
+            <span id="wins">0</span>
+
+            <br><br>
+    
+            Losses:
+            <span id="losses">0</span>
+    
+        </div>
+
+        <div id="random-num">0</div>
+
+        <div id="click">
+
+            Click a Crystal to add points
+
+        </div>
+
+        <div id="crystals">
+
+            <div id="red-crystal" class="crystals">
+
+                <img src="assets/images/red-crystal.png" alt="Red Crystal" width="119" height="75">
+
+            </div>
+
+            <div id="blue-crystal" class="crystals">
+
+                <img src="assets/images/blue-crystal.png" alt="Blue Crystal" width="100" height="100">
+    
+            </div>
+
+            <div id="green-crystal" class="crystals">
+
+                <img src="assets/images/green-crystal.png" alt="Green Crystal" width="76" height="100">
+    
+            </div>
+
+            <div id="purple-crystal" class="crystals">
+
+                <img src="assets/images/purple-crystal.png" alt="Purple Crystal" width="100" height="100">
+    
+            </div>
+
+        </div>
+
+        <div id="user-score">
+
+            <div id="score-text">Your score:</div>
+
+            <br><br>
+
+            <span id="current-score">0</span>
+
+        </div>
+
+    </body>
+
+</html>
