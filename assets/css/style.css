@@ -28,12 +28,17 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#pointless-container {
+    margin: 0 auto;
+    width: 263px;
+    height: 119px;
+}
+
 #score-board {
     margin: 25px;
     padding: 10px;
     float: left;
     position: relative;
-    left: 32%;
 }
 
 #random-num {
@@ -43,7 +48,6 @@ h1 {
     height: 75px;
     float: left;
     position: relative;
-    left: 38%;
     text-align: center;
     font-size: 70px;
 }
