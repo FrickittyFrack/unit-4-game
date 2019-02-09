@@ -8,7 +8,11 @@ body {
 h1 {
     font-size: 40px;
     padding: 20px;
-    background-color: blueviolet;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    /* background-color: blueviolet; */
     text-align: center;
     border-bottom: 2px solid rgb(236, 226, 245);
 }
@@ -71,7 +75,7 @@ h1 {
 #crystals {
     margin: 0 auto;
     height: 133px;
-    width: 483px;
+    width: 500px;
 
 }
 
